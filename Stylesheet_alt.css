@@ -1,0 +1,72 @@
+body {
+    color: #242424;
+    background-image: url("Pic/Background_Alt.png");
+    background-repeat: repeat;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 75%;
+    min-width: 700px;
+    background-color: #FFFFFF;
+    box-shadow: 0.5em 0.5em 0.5em #1e1e1e;
+    border-radius: 2em;
+}
+
+header {
+    background: url("Pic/Header.png") repeat-x left;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    color: #003333;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    background-color: #CCFFCC;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav ul {list-style-type: none;}
+
+main {
+    clear: left;
+    padding: 1em;
+}
+
+div {overflow: auto;}
+
+#recommandation {
+
+}
+
+#AD {
+
+}
+
+.bookcover {
+    float: left;
+    margin-right: 1em;
+}
+.dis {clear: left}
+
+nav a:link { text-decoration: none;color: #003333}
+nav a:active {text-decoration: blink;}
+nav a:hover { text-decoration:underline;color: #003333}
+nav a:visited { text-decoration: none;color: #003333}
+footer {text-align: center;color: #000000}
+
+.Book {
+
+}
