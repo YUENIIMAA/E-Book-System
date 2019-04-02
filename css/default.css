@@ -1,0 +1,86 @@
+* {
+	margin:0;
+}
+#container {
+	font-family:Arial,sans-serif;
+	margin:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	padding:0;
+	width:80%;
+	background-image:url("../img/paper_texture.jpg");
+	box-shadow:0.5em 0.5em 0.5em #1e1e1e;
+	min-width:950px;
+}
+body {
+	color:#242424;
+	background-image:url("../img/Background.jpg");
+	background-repeat:repeat;
+}
+header {
+	background:url("../img/Header.png") repeat-x left;
+	height:100px;
+	color:#003333;
+	line-height:100px;
+}
+header h1 {
+	font-family:agency fb;
+	padding-left:25px;
+}
+nav {
+	background-color:#003333;
+	font-weight:bold;
+	font-size:1.5em;
+	text-align:center;
+}
+nav li {
+	display:inline;
+}
+nav ul {
+	list-style-type:none;
+}
+nav a {
+	padding-right:100px;
+}
+nav a:link {
+	text-decoration:none;
+	color:#FFFFFF
+}
+nav a:active {
+	text-decoration:blink;
+}
+nav a:hover {
+	text-decoration:underline;
+	color:#FFFFFF
+}
+nav a:visited {
+	text-decoration:none;
+	color:#FFFFFF
+}
+footer {
+	text-align:center;
+	color:#000000;
+}
+div.bookcover {
+	float:left;
+	display:block;
+	width:100px;
+	height:142px;
+	/*border:2px solid #000000;
+	*/
+	margin:2.5%;
+	position:relative;
+}
+div.bookcover img {
+	width:100px;
+	height:auto;
+}
+div.discription {
+	position:relative;
+}
+div.discription p {
+	padding:10px;
+}
+div.discription br {
+	clear:left;
+}
